@@ -1,0 +1,74 @@
+body {
+  background-color: #bfbf8f !important;
+  font-family: "Playfair Display", serif;
+}
+
+.custom-font-traditional {
+  font-family: "Merriweather", serif;
+}
+
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.custom-forms {
+  resize: none;
+  min-height: 300px !important;
+  border: none;
+  outline: none;
+  box-shadow: 0 8px 16px rgba(3, 52, 110, 0.4);
+  margin: 10px;
+}
+
+.bgcolor-darkblue {
+  background-color: #021526 !important;
+}
+
+.bgcolor-blueish {
+  background-color: #03346e !important;
+}
+
+.bgcolor-lightblue {
+  background-color: #6eacda !important;
+}
+
+.bgcolor-light {
+  background-color: #e2e2b6 !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  background-color: #6eacda !important;
+}
+
+.nav-link.active {
+  background-color: #03346e !important;
+}
+
+.custom-footer {
+  color: black !important;
+}
+
+.custom-button {
+  box-shadow: 0 8px 16px rgba(3, 52, 110, 0.4);
+  font-family: "Playfair Display", serif;
+}
+
+.custom-li{
+  background-color: #e2e2b6 !important;
+  box-shadow: 0 8px 16px rgba(3, 52, 110, 0.4);
+  font-family: "Merriweather", serif;
+}
+
+.custom-li:hover{
+  background-color: #6eacda !important;
+}
+
+a {
+  color: black !important;
+}
+
+button:hover{
+  background-color: #6eacda !important;
+}

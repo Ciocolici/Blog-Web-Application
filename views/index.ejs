@@ -1,0 +1,34 @@
+<%- include('partials/header.ejs') %>
+    <%- include('partials/sidebar.ejs') %>
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><div class="px-4 py-5 my-5 text-center mt-0">
+                <img class="d-block mx-auto mt-0" src="/images/logo.png" alt="" width="275">
+                <h1 class="display-6 text-body-emphasis">Tiny tales, big laughs!</h1>
+              </div></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Your Last Post:</h3>
+                <% if (lastPost) { %>
+                <form class="custom-forms bgcolor-light">
+                    <div class="form-group custom-font-traditional">
+                        <input type="text" class="form-control bgcolor-light fs-4" id="title" value="<%= lastPost.title %>" readonly disabled>
+                    </div>
+                    <div class="form-group custom-font-traditional">
+                        <textarea class="form-control custom-forms bgcolor-light fs-5" id="content" rows="5" readonly disabled><%= lastPost.content %></textarea>
+                    </div>
+                </form>
+            <% } else { %>
+                <form class="custom-forms bgcolor-light">
+                    <div class="form-group custom-font-traditional">
+                        <input type="text" class="form-control bgcolor-light fs-4" id="title" value="No Post Found" readonly disabled>
+                    </div>
+                    <div class="form-group custom-font-traditional">
+                        <textarea class="form-control custom-forms bgcolor-light fs-5" id="content" rows="5" readonly disabled></textarea>
+                    </div>
+                </form>
+            <% } %>
+            </div>
+        </div>
+        <%- include('partials/footer.ejs') %>

@@ -1,0 +1,22 @@
+{
+  "name": "blog-web-application",
+  "version": "1.0.0",
+  "description": "A project made while doing \"[The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)\" Udemy Course. It contains a Blog web application using Bootstrap, Node.js, Express.js and EJS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "js-cookie": "^3.0.5",
+    "method-override": "^3.0.0",
+    "uuid": "^10.0.0"
+  }
+}
