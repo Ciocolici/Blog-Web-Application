@@ -6,9 +6,9 @@ Being a Node.js project, to be run the project requires a server. You can run it
 
 
 Make sure you have node.js installed, open the project's folder with Visual Studio code. Launch its terminal and write the following:
-2. cd "path to the project's folder"
-3. npm i
-4. node index.js
+1. cd "path to the project's folder"
+2. npm i
+3. node index.js
 The Web Application can now be accessed with http://localhost:3000/
 
 
