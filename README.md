@@ -9,6 +9,7 @@ Make sure you have node.js installed, open the project's folder with Visual Stud
 1. cd "path to the project's folder"
 2. npm i
 3. node index.js
+   
 The Web Application can now be accessed with http://localhost:3000/
 
 
