@@ -6,6 +6,8 @@ Being a Node.js project, to be run the project requires a server. You can run it
 
 *!!! I do not take any responsibility for the posts on the deployed page, as anyone can visit the site, create new posts, edit existing ones, and add content. Authorization and fixes are planned for the project. !!!*
 
+*As a precautionary measure, the server stops every 30 minutes. This ensures that the server on the deployed website restarts every 30 minutes, resetting any changes made to the posts.*
+
 *To see the page you can access this [link](https://blog-web-application-1kcr.onrender.com/).*
 
 Make sure you have node.js installed, open the project's folder with Visual Studio code. Launch its terminal and write the following:
