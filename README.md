@@ -5,7 +5,6 @@ It contains a Blog Web Application using the Node.js JavaScript Runtime Environm
 Being a Node.js project, to be run the project requires a server. You can run it locally with NPM in Visual Studio Code using the terminal: 
 
 *To see the page you can access this [link](https://blog-web-application-1kcr.onrender.com/). 
-
 !!! I do not take any responsability for the Posts on the page, because anyone can visit the site, create new posts, edit older ones and add new ones. Authorisation and fixes are in plan for the project! !!!*
 
 Make sure you have node.js installed, open the project's folder with Visual Studio code. Launch its terminal and write the following:
