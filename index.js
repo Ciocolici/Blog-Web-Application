@@ -104,3 +104,10 @@ app.get("/posts", (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+// Simple self-restart every 30 minutes
+setInterval(() => {
+  console.log("Restarting server...");
+  process.exit(0); // Force the process to exit and restart
+}, 30 * 60 * 1000); // 30 minutes (1,800,000 ms)
+
