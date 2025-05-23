@@ -10,17 +10,17 @@ It’s a full-stack blog web application built using the Node.js runtime environ
 
 To run the application locally, you need Node.js installed.
 
-   - Clone or download the project.
+- Clone or download the project.
 
-   - Open the project folder in Visual Studio Code.
+- Open the project folder in Visual Studio Code.
 
-   - Launch the terminal and run:
+- Launch the terminal and run:
 
      `npm install`
      
      `node index.js`
 
-   - Visit `http://localhost:3000/` in your browser.
+- Visit `http://localhost:3000/` in your browser.
 
 
 🌐 Live Demo
