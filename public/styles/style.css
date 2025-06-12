@@ -72,3 +72,23 @@ a {
 button:hover{
   background-color: #6eacda !important;
 }
+
+.flex-grow-1 {
+    min-height: 0;
+}
+
+@media (max-width: 767.98px) {
+    #sidebar {
+        width: 60px !important; 
+        padding: 0.5rem !important;
+    }
+
+    #sidebar .nav-link span {
+        display: none; 
+    }
+
+    #sidebar .dropdown,
+    #sidebar hr {
+        display: none; 
+    }
+}
