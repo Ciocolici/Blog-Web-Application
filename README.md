@@ -1,5 +1,5 @@
 # Blog Web Application
-A project made while doing "[The Complete Full-Stack Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)" Udemy Course, as part of my internship at Terrera AG. 
+A project made while doing "[The Complete Full-Stack Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)" Udemy Course, completed as a self-study exercise during my internship period (unrelated to company work). 
 
 It’s a full-stack blog web application built using the Node.js runtime environment, with Express.js as the framework, EJS for templating, and Bootstrap for styling. Users can create, edit, delete, and view blog posts.
 
